@@ -94,3 +94,55 @@ body {
 #right>h5{
    font-size: 18px;
 }
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:40px 65px ;
+    gap:60px;
+}
+.elem
+{
+    width: 50%;
+}
+.elem-img{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(145, 206, 211);
+    border-radius: 30px;
+    background-size:cover;
+    background-position:center;
+}
+#img1{
+    background-image: url(https://images.unsplash.com/photo-1707730376818-a7a02fe896d5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#img2{
+    background-image: url(https://plus.unsplash.com/premium_photo-1673795754005-214e3e1fccba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    font-weight: 800;
+}
+.bottom>i{
+    border: 2px solid black;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.bottom>i:hover{
+    background-color:aqua;
+    color: white;
+}
+.btm-left>h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.btm-left>h4{
+    font-size: 17px;
+    font-weight: 500;
+    color: #565454;
+}
